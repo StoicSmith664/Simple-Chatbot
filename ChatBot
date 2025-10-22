@@ -1,0 +1,132 @@
+print("We are glad to have you here...")
+
+name = input("Please, what is your name? ")
+print(f"Hello {name}, welcome to AnnaBOT!")
+
+age = int(input("How old are you? "))
+print(f"Wow, {name}! That's a great age.")
+
+# 1
+hobby = input("What do you like to do for fun? ")
+print(f"That sounds fun, {name}! I’d love to try {hobby} too someday.")
+
+# 2
+food = input("What is your favorite food? ")
+print(f"Yum! I wish I could taste {food}!")
+
+# 3
+color = input("What is your favorite color? ")
+print(f"{color} is such a beautiful color!")
+
+# 4
+music = input("What kind of music do you enjoy? ")
+print(f"Nice choice! Music makes life better.")
+
+# 5
+movie = input("What’s your favorite movie? ")
+print(f"Oh, I’ve heard {movie} is awesome!")
+
+# 6
+book = input("What’s the best book you’ve ever read? ")
+print(f"Great! I’ll add {book} to my reading list.")
+
+# 7
+sport = input("Do you like sports? If yes, which one? ")
+print(f"Cool! {sport} is a great way to stay active.")
+
+# 8
+pet = input("Do you have any pets? ")
+print(f"Aww, that’s lovely!" if pet.lower() in ["yes", "yeah", "yep"] else "That’s okay, pets need a lot of care!")
+
+# 9
+dream = input("What do you want to be in the future? ")
+print(f"That’s inspiring, {name}! I believe you’ll become a great {dream} someday.")
+
+# 10
+place = input("Which country would you love to visit? ")
+print(f"{place} is a wonderful choice!")
+
+# 11
+game = input("Do you play any video games? ")
+print(f"Awesome! Games are a fun way to relax.")
+
+# 12
+subject = input("What is your favorite school subject? ")
+print(f"{subject}? That’s a cool subject!")
+
+# 13
+friend = input("Who is your best friend? ")
+print(f"That’s sweet! True friends make life amazing.")
+
+# 14
+drink = input("What is your favorite drink? ")
+print(f"Ah, {drink} sounds refreshing!")
+
+# 15
+sleep = input("What time do you usually go to bed? ")
+print(f"Sleep is important! Good to know you rest around {sleep}.")
+
+# 16
+weather = input("Do you prefer sunny or rainy weather? ")
+print(f"I like {weather} too!")
+
+# 17
+fruit = input("What is your favorite fruit? ")
+print(f"Yummy! I wish I could taste {fruit}!")
+
+# 18
+holiday = input("What is your favorite holiday or celebration? ")
+print(f"Nice! {holiday} brings so much joy.")
+
+# 19
+talent = input("What special talent do you have? ")
+print(f"That’s amazing, {name}! Keep using your {talent} talent.")
+
+# 20
+fear = input("What’s something that scares you? ")
+print(f"Don’t worry, {name}, we all get scared sometimes.")
+
+# 21
+language = input("How many languages can you speak? ")
+print(f"Wow! That’s impressive!")
+
+# 22
+siblings = input("Do you have any brothers or sisters? ")
+print(f"Family makes life special!")
+
+# 23
+vacation = input("What would your dream vacation look like? ")
+print(f"That sounds like a perfect getaway!")
+
+# 24
+teacher = input("Who is your favorite teacher? ")
+print(f"I’m sure {teacher} is proud to have you as a student.")
+
+# 25
+animal = input("What is your favorite animal? ")
+print(f"{animal}s are wonderful creatures!")
+
+# 26
+hero = input("Who is your role model or hero? ")
+print(f"That’s a great person to look up to!")
+
+# 27
+funny = input("What’s something that always makes you laugh? ")
+print(f"Haha! Laughter is good for the soul.")
+
+# 28
+wish = input("If you had one wish, what would it be? ")
+print(f"That’s a beautiful wish, {name}. I hope it comes true!")
+
+# 29
+tech = input("Do you like using computers or technology? ")
+print(f"That’s great! Technology helps us do amazing things.")
+
+# 30
+bye = input("It’s been nice chatting! Should we talk again soon? (yes/no) ")
+if bye.lower() in ["yes", "yeah", "yep"]:
+    print("Yay! I can’t wait to talk again soon!")
+else:
+    print("Alright! Take care and have a wonderful day!")
+
+print("Goodbye from AnnaBOT 👋")
